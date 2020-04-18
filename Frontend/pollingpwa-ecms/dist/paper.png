@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+	<!-- Hello there, it's true that all the best web developers look at the source code of other webpages. ;) -->
+
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A Material Design-influenced FreeDesktop icon set">
+	<meta name="author" content="Sam Hewitt">
+	<meta name="keywords" content="snwh, foss, linux, suru, paper, moka, icons, Sam Hewitt">
+	<meta name="theme-color" content="#6200EE">
+
+	<!-- Root -->
+	<base href="/">
+
+	<!-- Title -->
+	<title>Paper - snwh.org</title>
+	<meta name="apple-mobile-web-app-title" content="Paper - snwh.org">
+
+	<!-- Icons -->
+	<link rel="shortcut icon" href='/img/favicon.png' type="image/x-icon" sizes="16x16">
+	<link rel="icon" type="image/png" href="/img/icon.png">
+	<link rel="image_src" href="/img/icon.png">
+	<link rel="apple-touch-icon" type="image/png" href="/img/icon.png">
+
+	<!-- Twitter Optimization  -->
+	<meta name="twitter:title" content="Paper - snwh.org">
+	<meta name="twitter:description" content="A Material Design-influenced FreeDesktop icon set">
+	<meta name="twitter:image" content="https://snwh.org/img/promo.png">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://snwh.org/paper/">
+
+	<!-- Facebook Optimization -->
+	<meta property="og:site_name" content="snwh.org">
+	<meta property="og:title" content="Paper - snwh.org">
+	<meta property="og:description" content="A Material Design-influenced FreeDesktop icon set">
+	<meta property="og:image" content="https://snwh.org/img/promo.png">
+
+	<!-- Google Optimization -->
+	<meta itemprop="name" content="Paper - snwh.org">
+	<meta itemprop="description" content="A Material Design-influenced FreeDesktop icon set">
+	<meta itemprop="image" content="https://snwh.org/img/promo.png">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/pages/theme.css">
+
+	<!-- Adobe Fonts -->
+	<link rel="stylesheet" href="https://use.typekit.net/fbm0cmz.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<!-- JavaScripts -->
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap-3.3.4.modified.js"></script>
+	<script type="text/javascript" src="/js/init.js"></script>
+</head>
+<!-- End Head -->
+
+<noscript>
+	<div class="infobar error no-js">I've noticed you've disabled JavaScript. 😞 Please consider re-enabling it for this site to experience it fully.</div>
+</noscript>
+
+<!-- Body -->
+<body>
+
+<!-- Header -->
+<header style="background-color:#6200EE;">
+	<div class="row">
+		<span class="title"><a href="/" class="arrow">←</a>Paper</span>
+		<span class="subtitle">A free software project by <a href="https://samuelhewitt.com/">Sam Hewitt</a></span>
+	</div>
+</header>
+<!-- Info Row -->
+<div class="row infobar basic">
+	<span>If you'd like to support Sam and the projects on this site you can <a href="/donate">donate here</a>.</span>
+</div>
+
+<!-- Row -->
+<div class="row">
+	<section class="text-center">
+		<img class="icon" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-color.png" alt=""/>
+		<h5>Paper is an icon project for the FreeDesktop</h5>
+		<a href="/paper/download" class="button" style="background-color:#6200EE;">Get Paper</a>
+		<a href="/paper/requests" class="button" style="background-color:#6200EE;">Requests</a>
+		<a href="/paper/issues" class="button" style="background-color:#6200EE;">Issues</a>
+	</section> 
+</div>
+
+<hr>
+
+<!-- Row -->
+<div class="row" id="icons">
+	<section>
+		<h3>Icon Set</h3>
+		<p>Like the Material Design guidelines that inspire it, Paper too is based around the use of bold colours and simple geometric shapes. Each icon has been meticulously designed for pixel-perfect viewing at any size.</p>
+		<!-- Switch -->
+		<ul class="switch-group">
+			<li>
+				<label class="switch-label" for="light_bg">Light Background</label>
+				<label class="switch no-label">
+					<input id="light_bg" name="light_bg" type="checkbox" class="switch-input" onclick="$('.icon-gallery').toggleClass('dark');">
+					<span class="switch-trough" data-on="On" data-off="Off"></span>
+					<span class="switch-handle"></span>
+				</label>
+			</li>
+		</ul>
+		<!-- Icon Gallery -->
+		<div class="icon-gallery dark">
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-desktop-accessibility.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/mimetypes/audio-x-generic.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/devices/battery.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/devices/bluetooth.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/accessories-calculator.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/office-calendar.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/devices/camera-photo.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/internet-chat.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/accessories-clipboard.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-color.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/color-picker.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/categories/applications-games.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/accessories-dictionary.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/disk-burner.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/disk-utility.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/accessories-ebook-reader.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/system-file-manager.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/devices/input-keyboard.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/session-properties.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/internet-mail.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/multimedia-audio-player.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/status/network-error.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/accessories-notes.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/mimetypes/package-x-generic.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/multimedia-photo-manager.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/categories/preferences-system-power.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/devices/printer.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-system-privacy.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/status/dialog-question.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/utilities-root-terminal.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/categories/preferences-desktop.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/status/weather-showers.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/software-store.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-system-sound.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/preferences-desktop-theme.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/places/user-trash.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/utilities-tweak-tool.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/categories/applications-utilities.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/mimetypes/video-x-generic.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/multimedia-video-player.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/multimedia-photo-viewer.png" alt=""/>
+			
+				<img class="icon scalable" src="https://raw.githubusercontent.com/snwh/paper-icon-theme/master/Paper/512x512/apps/internet-web-browser.png" alt=""/>
+			
+		</div>
+		<span style="margin-top:-0.5em;" class="footnote right">Tap or hover on the icons to zoom in.</span>
+		<span class="separator"></span>
+		<h3>Cursors</h3>
+		<p>Supplementary to the icon theme is the Paper cursor theme. It has a geometrically simple style designed to compliment the Paper icons.</p>
+		<!-- Switch -->
+		<ul class="switch-group">
+			<li>
+				<label class="switch-label" for="light_bg">Light Background</label>
+				<label class="switch no-label">
+					<input id="light_bg" name="light_bg" type="checkbox" class="switch-input" onclick="$('.icon-gallery').toggleClass('dark');">
+					<span class="switch-trough" data-on="On" data-off="Off"></span>
+					<span class="switch-handle"></span>
+				</label>
+			</li>
+		</ul>
+		<!-- Icon Gallery -->
+		<div class="icon-gallery dark">
+			<img class="center" style="max-height:288px;" src="/img/paper/cursors-paper@2x.png" alt=""/>
+		</div>
+	</section>
+</div>
+
+<!-- Footer -->
+<footer>
+	<div class="row">
+		<span>&copy; 2019 <a href="https://samuelhewitt.com/">Sam Hewitt</a></span>
+		<span><a href="/contact">Contact</a></span>
+		<span><a href="/donate">Donate</a></span>
+		<span><a href="/privacy">Privacy</a></span>
+		<span><a href="/about/this-site">About This Site</a></span>
+	</div>
+</footer>
+
+</body>
+</html>
